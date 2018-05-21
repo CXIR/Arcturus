@@ -6,4 +6,12 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    
+    <!-- Menu -->
+    <string name="home">Home</string>
+    <string name="cart">My Cart</string>
+    <string name="carts">Former Carts</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="logout">Log Out</string>
 </resources>
