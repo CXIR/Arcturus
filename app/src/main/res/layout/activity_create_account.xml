@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccountActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ca_title"
+            android:layout_marginBottom="15sp"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/ca_name"
+            android:inputType="text"
+            android:hint="@string/ca_name"
+            style="@style/form_content"
+            />
+        <EditText
+            android:inputType="text"
+            android:id="@+id/ca_first"
+            android:hint="@string/ca_first"
+            style="@style/form_content"/>
+
+        <EditText
+            android:inputType="textEmailAddress"
+            android:id="@+id/ca_mail1"
+            android:hint="@string/ca_mail1"
+            style="@style/form_content"/>
+        <EditText
+            android:id="@+id/ca_mail2"
+            android:inputType="textEmailAddress"
+            android:hint="@string/ca_mail2"
+            style="@style/form_content"/>
+
+        <EditText
+            android:id="@+id/ca_pass1"
+            android:inputType="textPassword"
+            android:hint="@string/ca_pass1"
+            style="@style/form_content"/>
+        <EditText
+            android:id="@+id/ca_pass2"
+            android:inputType="textPassword"
+            android:hint="@string/ca_pass2"
+            style="@style/form_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:layout_marginTop="15sp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ca_validate"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create with Google ? "/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
