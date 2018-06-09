@@ -31,4 +31,7 @@
     <string name="log_pass">Password</string>
     <string name="log_create">Got no account ? Create !</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
